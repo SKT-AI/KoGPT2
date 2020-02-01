@@ -172,7 +172,8 @@ sent
 
 **KoGPT2-Explorer**
 
-- [링크](http://52.231.69.211:8000)
+<a href="http://52.231.69.211:8000" target="_blank">링크</a>
+
 
 <table><tr><td>
     <img src="imgs/kogpt2.jpg" width="350"/>
