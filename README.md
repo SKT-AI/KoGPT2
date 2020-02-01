@@ -82,8 +82,8 @@ GPT2Model(units=768,
 #### How to install
 
 ```sh
-git clone https://gogamza@tde.sktelecom.com/stash/scm/conv/kogpt2_model.git
-cd kogpt2_model
+git clone https://github.com/SKT-AI/KoGPT2.git
+cd KoGPT2
 pip install -r requirements.txt
 pip install .
 ```
@@ -98,7 +98,7 @@ pip install .
 * sentencepiece >= 0.1.6
 * transformers >= 2.1.1
 
-만일 pip으로 패키지 설치시 MXNet < 1.6.0 버전이 설치될 경우 아래 명령어로 1.6.0 이상의 MXNet을 설치한다.
+pip으로 패키지 설치시 MXNet < 1.6.0 버전이 설치될 경우 아래 명령어로 1.6.0 이상의 MXNet을 설치한다.
 
 ```
 pip install --pre mxnet
