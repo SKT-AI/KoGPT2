@@ -76,7 +76,7 @@ GPT2Model(units=768,
 - 이 작업은 아래 세 팀과의 협업으로 진행되었습니다.
   - `SKT Conv.AI`팀 : 대규모 언어모델 학습 로직 구현
   - `Amazon Machine Learning Solutions Lab`팀 : 대규모 분산 학습 인프라 구성
-  - `GluonNLP`팀 : 학습 퍼포먼스 개선
+  - [`GluonNLP`](https://gluon-nlp.mxnet.io/)팀 : 학습 퍼포먼스 개선
 
 
 #### How to install
