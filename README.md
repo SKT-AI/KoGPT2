@@ -67,9 +67,6 @@ GPT2Model(units=768,
 <table><tr><td>
     <center><img src="imgs/KoGPT2Traning-horovod.png" width="452"/></center>
 </td></tr>
-<tr><td>
-    <center><img src="imgs/kogpt_train.png" /></center>
-</td></tr>
 </table>
 
 
