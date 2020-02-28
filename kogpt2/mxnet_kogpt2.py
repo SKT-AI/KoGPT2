@@ -13,15 +13,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import hashlib
 import os
 import sys
-import requests
-import hashlib
 
-import mxnet as mx
 import gluonnlp as nlp
-from model.gpt import GPT2Model as MXGPT2Model
+import mxnet as mx
+import requests
 
+from .model.gpt import GPT2Model as MXGPT2Model
 from .utils import download as _download
 from .utils import tokenizer
 
