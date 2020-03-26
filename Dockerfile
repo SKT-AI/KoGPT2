@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM pytorch/pytorch:latest
 
 WORKDIR /usr/src/KoGPT2
 
@@ -10,4 +10,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN ["pip", "install", "."]
+RUN pip install .
