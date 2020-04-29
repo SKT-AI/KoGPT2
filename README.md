@@ -170,6 +170,10 @@ sent
 '2019년 한해를 보내며, 새해에는 더 많은 사람들이 새해에 이루고자 하는 소망과 희망을 되새겨보는 시간이 되었으면 좋겠다.'
 ```
 
+### How to deploy the pre-trained KoGPT-2 model to Amazon SageMaker
+
+Pre-trained 또는 fine-tuning KoGPT2 모델의 추론 API를 만드는 방법이 궁금하시면, AWS 한국 블로그 [Amazon SageMaker의 MXNet 추론 컨테이너를 활용한 KoGPT2 모델 배포하기](https://aws.amazon.com/ko/blogs/korea/deploy-kogpt2-model-mxnet-amazon-sagemaker/) 또는 [aws-samples Git repo](https://github.com/aws-samples/kogpt2-sagemaker)를 참고해주세요.
+
 ### Demo
 
 **KoGPT2-Explorer**
