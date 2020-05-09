@@ -2,4 +2,4 @@ gluonnlp >= 0.8.3
 mxnet
 sentencepiece >= 0.1.6
 torch >= 1.4.0
-transformers >= 2.4.1
+transformers == 2.4.1
