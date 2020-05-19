@@ -93,7 +93,7 @@ pip install .
 * MXNet >= 1.6.0
 * gluonnlp >= 0.8.3
 * sentencepiece >= 0.1.6
-* transformers >= 2.1.1
+* transformers == 2.4.1
 
 pip으로 패키지 설치시 MXNet < 1.6.0 버전이 설치될 경우 아래 명령어로 1.6.0 이상의 MXNet을 설치한다.
 
