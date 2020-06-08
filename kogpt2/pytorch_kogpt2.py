@@ -21,7 +21,7 @@ import gluonnlp as nlp
 import requests
 import torch
 
-from .model.torch_gpt2 import GPT2Config, GPT2LMHeadModel
+from transformers import GPT2Config, GPT2LMHeadModel
 from .utils import download as _download
 from .utils import tokenizer
 
@@ -40,7 +40,8 @@ kogpt2_config = {
     "n_head": 12,
     "n_layer": 12,
     "n_positions": 1024,
-    "vocab_size": 50000
+    "vocab_size": 50000,
+    "activation_function": "gelu"
 }
 
 
@@ -61,8 +62,9 @@ def get_pytorch_kogpt2_model(ctx='cpu', cachedir='~/kogpt2/'):
 
 
 def get_kogpt2_model(model_file, vocab_file, ctx="cpu"):
-    kogpt2model = GPT2LMHeadModel(config=GPT2Config.from_dict(kogpt2_config))
-    kogpt2model.load_state_dict(torch.load(model_file))
+    kogpt2model = GPT2LMHeadModel.from_pretrained(pretrained_model_name_or_path=None,
+                                    config=GPT2Config.from_dict(kogpt2_config),
+                                    state_dict=torch.load(model_file))
     device = torch.device(ctx)
     kogpt2model.to(device)
     kogpt2model.eval()

@@ -15,6 +15,7 @@
   - [How to use](#how-to-use)
     - [PyTorch](#pytorch)
     - [MXNet-Gluon](#mxnet-gluon)
+  - [How to deploy the pre-trained KoGPT-2 model to Amazon SageMaker](#how-to-deploy-the-pre-trained-kogpt-2-model-to-amazon-sagemaker)
   - [Demo](#demo)
   - [Subtask Evaluations](#subtask-evaluations)
   - [Contacts](#contacts)
@@ -89,18 +90,11 @@ pip install .
 ##### Requirements
 
 * Python >= 3.6
-* PyTorch >= 1.4.0
-* MXNet >= 1.6.0
-* gluonnlp >= 0.8.3
-* sentencepiece >= 0.1.6
-* transformers == 2.4.1
-
-pip으로 패키지 설치시 MXNet < 1.6.0 버전이 설치될 경우 아래 명령어로 1.6.0 이상의 MXNet을 설치한다.
-
-```
-pip install --pre mxnet
-```
-
+* PyTorch == 1.5.0
+* MXNet == 1.6.0
+* gluonnlp == 0.9.1
+* sentencepiece == 0.1.85
+* transformers == 2.11.0
 
 ---
 

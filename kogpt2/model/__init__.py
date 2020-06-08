@@ -15,4 +15,3 @@
 
 
 from .gpt import *
-from .torch_gpt2 import *
