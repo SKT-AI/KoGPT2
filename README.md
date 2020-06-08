@@ -93,7 +93,7 @@ pip install .
 * PyTorch == 1.5.0
 * MXNet == 1.6.0
 * gluonnlp == 0.9.1
-* sentencepiece == 0.1.85
+* sentencepiece >= 0.1.85
 * transformers == 2.11.0
 
 ---
