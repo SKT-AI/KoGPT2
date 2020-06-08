@@ -112,7 +112,7 @@ from kogpt2.utils import get_tokenizer
 
 tok_path = get_tokenizer()
 model, vocab = get_pytorch_kogpt2_model()
-tok = SentencepieceTokenizer(tok_path)
+tok = SentencepieceTokenizer(tok_path,  num_best=0, alpha=0)
 sent = '2019년 한해를 보내며,'
 toked = tok(sent)
 while 1:
@@ -147,7 +147,7 @@ else:
   
 tok_path = get_tokenizer()
 model, vocab = get_mxnet_kogpt2_model(ctx=ctx)
-tok = SentencepieceTokenizer(tok_path)
+tok = SentencepieceTokenizer(tok_path, num_best=0, alpha=0)
 sent = '2019년 한해를 보내며,'
 toked = tok(sent)
 while 1:
