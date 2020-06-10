@@ -367,7 +367,7 @@ def gpt2_345m(dataset_name=None, vocab=None, pretrained=True, ctx=mx.cpu(),
     """Generic GPT-2 model.
 
     The number of layers (L) is 24, number of units (H) is 1024, and the
-    number of self-attention heads (A) is 24.
+    number of self-attention heads (A) is 16.
 
     Parameters
     ----------
