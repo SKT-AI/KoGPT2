@@ -179,7 +179,6 @@ Pre-trained 또는 fine-tuning KoGPT2 모델의 추론 API를 만드는 방법�
     <img src="imgs/kogpt2.jpg" width="350"/>
 </td></tr></table>
 
-
 ### Subtask Evaluations
 
 **Sentimemt Analysis**
@@ -203,6 +202,10 @@ Pre-trained 또는 fine-tuning KoGPT2 모델의 추론 API를 만드는 방법�
 | [KoBERT](https://github.com/aisolab/nlp_implementation) | 0.911 |
 | KoGPT2 | 0.943 |
 
+### Examples
+
+- 한글 쳇봇(chit-chat)
+  - https://github.com/haven-jeon/KoGPT2-chatbot
 
 ### Contacts
 
