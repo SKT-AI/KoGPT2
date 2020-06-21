@@ -195,7 +195,7 @@ Pre-trained 또는 fine-tuning KoGPT2 모델의 추론 API를 만드는 방법�
 **Paraphrase Detection**
 
 
-[한국어 Paraphrase Detection 데이터](https://github.com/aisolab/nlp_implementation/tree/master/BERT_pairwise_text_classification/data)
+[한국어 Paraphrase Detection 데이터](https://github.com/aisolab/nlp_classification/tree/master/BERT_pairwise_text_classification/qpair)
 
 
 | Model | Test Accuracy |
