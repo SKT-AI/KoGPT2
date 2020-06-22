@@ -205,8 +205,12 @@ Pre-trained 또는 fine-tuning KoGPT2 모델의 추론 API를 만드는 방법�
 
 ### Examples
 
-- 한글 쳇봇(chit-chat)
+- 한글 챗봇(chit-chat) 모델
   - https://github.com/haven-jeon/KoGPT2-chatbot
+- 소설을 생성 모델(NarrativeKoGPT2)
+  - https://github.com/shbictai/narrativeKoGPT2
+- 가사 생성 모델
+  - https://github.com/gyunggyung/KoGPT2-FineTuning
 
 ### Contacts
 
