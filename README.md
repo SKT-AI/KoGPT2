@@ -93,6 +93,7 @@ pip install .
 * Python >= 3.6
 * PyTorch == 1.5.0
 * MXNet == 1.6.0
+* onnxruntime == 1.5.2
 * gluonnlp == 0.9.1
 * sentencepiece >= 0.1.85
 * transformers == 2.11.0
@@ -145,7 +146,7 @@ if mx.context.num_gpus() > 0:
   ctx = mx.gpu()
 else:
   ctx = mx.cpu()
-  
+
 tok_path = get_tokenizer()
 model, vocab = get_mxnet_kogpt2_model(ctx=ctx)
 tok = SentencepieceTokenizer(tok_path, num_best=0, alpha=0)
@@ -157,6 +158,41 @@ while 1:
   gen = vocab.to_tokens(mx.nd.argmax(pred, axis=-1).squeeze().astype('int').asnumpy().tolist())[-1]
   if gen == '</s>':
     break
+  sent += gen.replace('▁', ' ')
+  toked = tok(sent)
+sent
+```
+```
+'2019년 한해를 보내며, 새해에는 더 많은 사람들이 새해에 이루고자 하는 소망과 희망을 되새겨보는 시간이 되었으면 좋겠다.'
+```
+
+####  ONNX
+
+```sh
+python onnx/export_onnx_kogpt2.py
+```
+
+```python
+import torch
+import numpy as np
+from kogpt2.pytorch_kogpt2 import get_pytorch_kogpt2_model
+from gluonnlp.data import SentencepieceTokenizer
+from kogpt2.utils import get_tokenizer
+import onnxruntime
+
+tok_path = get_tokenizer()
+_, vocab = get_pytorch_kogpt2_model()
+model = onnxruntime.InferenceSession("./onnx/pytorch_kogpt2_676e9bcfa7.onnx")
+tok = SentencepieceTokenizer(tok_path,  num_best=0, alpha=0)
+sent = '2019년 한해를 보내며,'
+toked = tok(sent)
+
+while 1:
+  input_ids = torch.tensor([vocab[vocab.bos_token],]  + vocab[toked]).unsqueeze(0)
+  pred = model.run(None, {'input_ids': np.array(input_ids)})[0]
+  gen = vocab.to_tokens(torch.argmax(torch.tensor(pred), axis=-1).squeeze().tolist())[-1]
+  if gen == '</s>':
+      break
   sent += gen.replace('▁', ' ')
   toked = tok(sent)
 sent
