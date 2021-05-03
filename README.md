@@ -2,6 +2,12 @@
 
 `GPT-2`는 주어진 텍스트의 다음 단어를 잘 예측할 수 있도록 학습된 언어모델이며 문장 생성에 최적화 되어 있습니다. `KoGPT2`는 부족한 한국어 성능을 극복하기 위해 40GB 이상의 텍스트로 학습된 한국어 디코더(`decoder`) 언어모델입니다. 
 
+<table><tr><td>
+    <center><img src="imgs/gpt2.png" width="452"/></center>
+</td></tr>
+</table>
+
+
 ### Tokenizer
 
 
@@ -14,7 +20,9 @@
 
 ```python
 > from transformers import PreTrainedTokenizerFast
-> tokenizer = PreTrainedTokenizerFast.from_pretrained("skt/kogpt2-base-v2", bos_token='</s>', eos_token='</s>', unk_token='<unk>', pad_token='<pad>', mask_token='<mask>', use_auth_token=True) 
+> tokenizer = PreTrainedTokenizerFast.from_pretrained("skt/kogpt2-base-v2",
+  bos_token='</s>', eos_token='</s>', unk_token='<unk>',
+  pad_token='<pad>', mask_token='<mask>') 
 > tokenizer.tokenize("안녕하세요. 한국어 GPT-2 입니다.😤:)l^o")
 ['▁안녕', '하', '세', '요.', '▁한국어', '▁G', 'P', 'T', '-2', '▁입', '니다.', '😤', ':)', 'l^o']
 ```
@@ -30,7 +38,7 @@
 > import torch
 > from transformers import GPT2LMHeadModel
 
-> model = GPT2LMHeadModel.from_pretrained('skt/kogpt2-base-v2', use_auth_token=True)
+> model = GPT2LMHeadModel.from_pretrained('skt/kogpt2-base-v2')
 > text = '현대인들은 왜 항상 불안해 할까?'
 > input_ids = tokenizer.encode(text)
 > gen_ids = model.generate(torch.tensor([input_ids]),
@@ -43,7 +51,10 @@
 > generated = tokenizer.decode(gen_ids[0,:].tolist())
 > print(generated)
 현대인들은 왜 항상 불안해 할까?"
-"그렇다면 그건 바로 우리들의 문제입니다. 우리가 지금 이 순간에도, 그리고 앞으로도 계속 걱정하고 있는 것은 우리의 미래가 불투명하기 때문입니다! 우리는 이미 오래 전부터 미래에 대한 걱정을 하고 있습니다. 그래서 ...
+"그렇다면 그건 바로 우리들의 문제입니다. 
+우리가 지금 이 순간에도, 
+그리고 앞으로도 계속 걱정하고 있는 것은 우리의 미래가 불투명하기 때문입니다! 
+우리는 이미 오래 전부터 미래에 대한 걱정을 하고 있습니다. 그래서 ...
 ```
 
 #### Performances
