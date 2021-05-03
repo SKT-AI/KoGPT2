@@ -2,14 +2,6 @@
 
 `GPT-2`는 주어진 텍스트의 다음 단어를 잘 예측할 수 있도록 학습된 언어모델이며 문장 생성에 최적화 되어 있습니다. `KoGPT2`는 부족한 한국어 성능을 극복하기 위해 40GB 이상의 텍스트로 학습된 한국어 디코더(`decoder`) 언어모델입니다. 
 
-
-### How to install
-
-```
-pip install git+https://github.com/SKT-AI/KoGPT2#egg=kogpt2
-```
-
-
 ### Tokenizer
 
 
@@ -31,7 +23,7 @@ tokenizer.tokenize("안녕하세요. 한국어 GPT-2 입니다.😤:)l^o")
 
 | Model       |  # of params |   Type   | # of layers  | # of heads | ffn_dim | hidden_dims | 
 |--------------|:----:|:-------:|--------:|--------:|--------:|--------------:|
-| `KoGPT2` |  125M  |  Decoder |   12     | 12      | 3072    | 768 | 
+| `kogpt2-base-v2` |  125M  |  Decoder |   12     | 12      | 3072    | 768 | 
 
 
 ```python
@@ -77,20 +69,6 @@ print(generated)
 </td></tr>
 </table>
 
-### Training
-
-*아래 내용은 KoGPT2 ver 1.0 학습 아키텍처이며 2.0과는 다름*
-
-<table><tr><td>
-    <center><img src="imgs/KoGPT2Traning-horovod.png" width="452"/></center>
-</td></tr>
-</table>
-
-
-- 이 작업은 아래 세 팀과의 협업으로 진행되었습니다.
-  - `SKT Conv.AI`팀 : 대규모 언어모델 학습 로직 구현
-  - `Amazon Machine Learning Solutions Lab`팀 : 대규모 분산 학습 인프라 구성
-  - [`GluonNLP`](https://gluon-nlp.mxnet.io/)팀 : 학습 퍼포먼스 개선
 
 ### Contacts
 
