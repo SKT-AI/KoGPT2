@@ -1,3 +1,22 @@
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [KoGPT2 (한국어 GPT-2) Ver 2.0](#kogpt2-한국어-gpt-2-ver-20)
+  - [Tokenizer](#tokenizer)
+  - [Model](#model)
+    - [Performances](#performances)
+    - [Classification or Regression](#classification-or-regression)
+  - [Data](#data)
+  - [Demo](#demo)
+  - [Examples](#examples)
+  - [Contacts](#contacts)
+  - [License](#license)
+
+<!-- /code_chunk_output -->
+
+
 ## KoGPT2 (한국어 GPT-2) Ver 2.0
 
 `GPT-2`는 주어진 텍스트의 다음 단어를 잘 예측할 수 있도록 학습된 언어모델이며 문장 생성에 최적화 되어 있습니다. `KoGPT2`는 부족한 한국어 성능을 극복하기 위해 40GB 이상의 텍스트로 학습된 한국어 디코더(`decoder`) 언어모델입니다. 
@@ -6,6 +25,7 @@
     <center><img src="imgs/gpt2.png" width="452"/></center>
 </td></tr>
 </table>
+
 
 
 ### Tokenizer
@@ -82,6 +102,10 @@
 </td></tr>
 </table>
 
+
+### Examples
+
+*업데이트 예정*
 
 ### Contacts
 
