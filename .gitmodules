@@ -1,0 +1,3 @@
+[submodule "kogpt2-base-v2"]
+	path = kogpt2-base-v2
+	url = https://huggingface.co/skt/kogpt2-base-v2
