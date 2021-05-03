@@ -83,8 +83,8 @@
 
 |   |  [NSMC](https://github.com/e9t/nsmc)(acc)  | [KorSTS](https://github.com/kakaobrain/KorNLUDatasets)(spearman) | PPL | 
 |---|---|---|---|
-| **KoGPT 2.0**  | 93.3  | 78.4  | 24.6  |
-| KoGPT 1.0  | 89.9  | 80.1  | 45.4  |
+| **KoGPT2 2.0**  | 93.3  | 78.4  | 24.6  |
+| KoGPT2 1.0  | 89.9  | 80.1  | 45.4  |
 
 
 ### Data
