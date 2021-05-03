@@ -105,7 +105,9 @@
 
 ### Examples
 
-*업데이트 예정*
+- 한글 챗봇(chit-chat) 모델 (v2.0 업데이트 예정)
+  - https://github.com/haven-jeon/KoGPT2-chatbot 
+
 
 ### Contacts
 
