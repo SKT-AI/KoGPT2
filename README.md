@@ -107,13 +107,15 @@
 ### Examples
 
 - 한글 챗봇(chit-chat) 모델
-  - https://github.com/haven-jeon/KoGPT2-chatbot 
+  - https://github.com/haven-jeon/KoGPT2-chatbot
+- KoGPT2와 DINO 🦕를 활용한 데이터 생성 (Augmentation) 어플리케이션
+  - https://github.com/soeque1/KoGPT2-DINO
 
 
 ### Contacts
 
 `KoGPT2` 관련 이슈는 [이곳](https://github.com/SKT-AI/KoGPT2/issues)에 올려주세요.
- 
+
 
 ### License
 
