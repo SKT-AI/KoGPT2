@@ -110,7 +110,8 @@
   - https://github.com/haven-jeon/KoGPT2-chatbot
 - KoGPT2와 DINO 🦕를 활용한 데이터 생성 (Augmentation) 어플리케이션
   - https://github.com/soeque1/KoGPT2-DINO
-
+- KoGPT2-subtasks(NSMC, KorSTS 등 파인튜닝 코드)
+  - https://github.com/haven-jeon/KoGPT2-subtasks 
 
 ### Contacts
 
