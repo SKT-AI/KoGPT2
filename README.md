@@ -104,7 +104,7 @@
 </table>
 
 
-### Examples
+### User Contributed Examples
 
 - 한글 챗봇(chit-chat) 모델
   - https://github.com/haven-jeon/KoGPT2-chatbot
@@ -114,6 +114,8 @@
   - https://github.com/haven-jeon/KoGPT2-subtasks
 - KoGPT2를 이용한 생성 요약
   - https://github.com/seujung/KoGPT2-summarization 
+
+좋은 예제가 있으면 위 리스트에 추가해 PR 주시기 바랍니다. 
 
 ### Contacts
 
