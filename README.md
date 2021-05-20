@@ -106,14 +106,6 @@
 
 ### User Contributed Examples
 
-- 한글 챗봇(chit-chat) 모델
-  - https://github.com/haven-jeon/KoGPT2-chatbot
-- KoGPT2와 DINO 🦕를 활용한 데이터 생성 (Augmentation) 어플리케이션
-  - https://github.com/soeque1/KoGPT2-DINO
-- KoGPT2-subtasks(NSMC, KorSTS 등 파인튜닝 코드)
-  - https://github.com/haven-jeon/KoGPT2-subtasks
-- KoGPT2를 이용한 생성 요약
-  - https://github.com/seujung/KoGPT2-summarization 
 
 좋은 예제가 있으면 위 리스트에 추가해 PR 주시기 바랍니다. 
 
