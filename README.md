@@ -10,7 +10,7 @@
     - [Classification or Regression](#classification-or-regression)
   - [Data](#data)
   - [Demo](#demo)
-  - [Examples](#examples)
+  - [Examples](#user-contributed-examples)
   - [Contacts](#contacts)
   - [License](#license)
 
@@ -19,7 +19,7 @@
 
 ## KoGPT2 (한국어 GPT-2) Ver 2.0
 
-`GPT-2`는 주어진 텍스트의 다음 단어를 잘 예측할 수 있도록 학습된 언어모델이며 문장 생성에 최적화 되어 있습니다. `KoGPT2`는 부족한 한국어 성능을 극복하기 위해 40GB 이상의 텍스트로 학습된 한국어 디코더(`decoder`) 언어모델입니다. 
+[GPT-2](https://openai.com/blog/better-language-models/)는 주어진 텍스트의 다음 단어를 잘 예측할 수 있도록 학습된 언어모델이며 문장 생성에 최적화 되어 있습니다. `KoGPT2`는 부족한 한국어 성능을 극복하기 위해 40GB 이상의 텍스트로 학습된 한국어 디코더(`decoder`) 언어모델입니다. 
 
 <table><tr><td>
     <center><img src="imgs/gpt2.png" width="452"/></center>
@@ -90,7 +90,7 @@
 
 ### Data
 
-한국어 위키 백과 이외, 뉴스, [모두의 말뭉치 v1.0](https://corpus.korean.go.kr/), [청와대 국민청원](https://github.com/akngs/petitions) 등의 다양한 데이터가 모델 학습에 사용되었습니다.
+[한국어 위키 백과](https://ko.wikipedia.org/) 이외, 뉴스, [모두의 말뭉치 v1.0](https://corpus.korean.go.kr/), [청와대 국민청원](https://github.com/akngs/petitions) 등의 다양한 데이터가 모델 학습에 사용되었습니다.
 
 
 
@@ -107,7 +107,7 @@
 ### User Contributed Examples
 
 
-좋은 예제가 있으면 위 리스트에 추가해 PR 주시기 바랍니다. 
+좋은 예제가 있으면 위 리스트에 추가해 [PR](https://github.com/SKT-AI/KoGPT2/pulls)을 올려 주시기 바랍니다. 
 
 ### Contacts
 
@@ -116,4 +116,4 @@
 
 ### License
 
-`KoGPT2`는 `CC-BY-NC-SA 4.0` 라이선스 하에 공개되어 있습니다. 모델 및 코드를 사용할 경우 라이선스 내용을 준수해주세요. 라이선스 전문은 `LICENSE` 파일에서 확인하실 수 있습니다.
+`KoGPT2`는 [CC-BY-NC-SA 4.0 라이선스](https://creativecommons.org/licenses/by-nc-sa/4.0/) 하에 공개되어 있습니다. 모델 및 코드를 사용할 경우 라이선스 내용을 준수해주세요. 라이선스 전문은 [LICENSE](https://github.com/SKT-AI/KoGPT2/blob/master/LICENSE) 파일에서 확인하실 수 있습니다.
