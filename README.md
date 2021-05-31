@@ -11,6 +11,7 @@
   - [Data](#data)
   - [Demo](#demo)
   - [Examples](#user-contributed-examples)
+  - [Related press releases](#related-press-releases)
   - [Contacts](#contacts)
   - [License](#license)
 
@@ -108,6 +109,11 @@
 
 
 좋은 예제가 있으면 위 리스트에 추가해 [PR](https://github.com/SKT-AI/KoGPT2/pulls)을 올려 주시기 바랍니다. 
+
+### Related press releases
+
+- [SKT, 글 쓰는 AI 'KoGPT2' 새 버전 개발…문장→문단생성으로 성능 향상](https://www.ajunews.com/view/20210504120317549)
+- [[AI 모델 탐험기] #7 한글 버전의 GPT-2, KoGPT2](https://medium.com/ai-networkkr/ai-%EB%AA%A8%EB%8D%B8-%ED%83%90%ED%97%98%EA%B8%B0-7-%ED%95%9C%EA%B8%80-%EB%B2%84%EC%A0%84%EC%9D%98-gpt-2-f7317e6499f9)
 
 ### Contacts
 
