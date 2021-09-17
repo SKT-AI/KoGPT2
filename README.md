@@ -97,7 +97,7 @@
 
 ### Demo
 
-[데모 링크](http://52.231.69.211:8080/)
+[데모 링크](http://3.36.123.253:7876/)
 
 <table><tr><td>
     <center><img src="imgs/kogpt2_2.png" width="452"/></center>
