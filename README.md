@@ -106,9 +106,7 @@
 
 
 ### User Contributed Examples
-
-
-좋은 예제가 있으면 위 리스트에 추가해 [PR](https://github.com/SKT-AI/KoGPT2/pulls)을 올려 주시기 바랍니다. 
+- [국립국어원 신문 말뭉치(Ver.2) 뉴스기사 토픽 분류](https://github.com/seawavve/newsTopicClassification)
 
 ### Related press releases
 
