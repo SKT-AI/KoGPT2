@@ -106,7 +106,7 @@
 
 
 ### User Contributed Examples
-- [국립국어원 신문 말뭉치(Ver.2) 뉴스기사 토픽 분류](https://github.com/seawavve/newsTopicClassification)
+- [국립국어원 신문 말뭉치(Ver.1.1) 뉴스기사 토픽 분류](https://github.com/seawavve/newsTopicClassification)
 
 ### Related press releases
 
