@@ -90,7 +90,7 @@
 
 ### Data
 
-[한국어 위키 백과](https://ko.wikipedia.org/) 이외, 뉴스, [모두의 말뭉치 v1.0](https://corpus.korean.go.kr/), [청와대 국민청원](https://github.com/akngs/petitions) 등의 다양한 데이터가 모델 학습에 사용되었습니다.
+[한국어 위키 백과](https://ko.wikipedia.org/) 이외, 뉴스, [모두의 말뭉치 v1.0](https://corpus.korean.go.kr/) 등의 다양한 데이터가 모델 학습에 사용되었습니다.
 
 
 
